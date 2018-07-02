@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#287abc</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="translate">#00000000</color>
+
+    <color name="refresh_text_color">#000000</color>
+    <color name="red">#e6565b</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="triangle">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="view_bg">#00000000</color>
+
+    <color name="shadoww">#25808080</color>
+    <color name="black_alpha_60">#4f000000</color>
+    <color name="pink">#fb7299</color>
+    <color name="orange_dft">#f2a732</color>
+
+    <color name="action_text_color_normal">#cfcfcf</color>
+    <color name="action_text_color_pressed">#353535</color>
+    <color name="action_text_color_enabled">#818585</color>
+    <color name="drawer_background">#59000000</color>
+    <color name="div_gray">#dcdcdc</color>
+
+    <color name="T_mini_black">#bd000000</color>
+    <color name="default_bg">#f2f2f2</color>
+    <color name="default_line">#dddddd</color>
+
+    <color name="scan_frame_green_color">#65E102</color>
+    <color name="scan_view_bg">#64000000</color>
+    <color name="scan_view_tip_color">#AFAFAF</color>
+    <color name="scan_line_color">#98C360</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="gray">#515151</color>
+    <color name="light_gray">#535353</color>
+</resources>

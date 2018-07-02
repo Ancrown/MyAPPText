@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_new" />
+
+    <com.example.administrator.myapptextttttttt.views.like.LikeView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:cirRadius="10dp"
+        app:cycleTime="2000"
+        app:defaultColor="#ff657487" />
+
+    <com.example.administrator.myapptextttttttt.views.like.LikeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cirRadius="20dp"
+        app:cycleTime="1000"
+        app:defaultColor="#ff657487" />
+
+    <com.example.administrator.myapptextttttttt.views.like.LikeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:checkedColor="#ffff0000"
+        app:cirRadius="30dp"
+        app:cycleTime="1600"
+        app:defaultColor="#ffcc99cc" />
+</LinearLayout>

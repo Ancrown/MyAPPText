@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_new" />
+
+    <TextView
+        android:id="@+id/umeng_tuisong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/black"
+        android:padding="@dimen/dp10"
+        android:text="友盟 推送"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+
+        />
+
+    <TextView
+        android:id="@+id/umeng_fenxiang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/black"
+        android:padding="@dimen/dp10"
+        android:text="友盟 分享"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        />
+    <TextView
+        android:id="@+id/umeng_fenxiang_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/black"
+        android:padding="@dimen/dp10"
+        android:text="友盟 分享 微信"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        />
+    <TextView
+        android:id="@+id/umeng_fenxiang_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/black"
+        android:padding="@dimen/dp10"
+        android:text="友盟 分享 QQ"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        />
+    <TextView
+        android:id="@+id/umeng_fenxiang_qq_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/black"
+        android:padding="@dimen/dp10"
+        android:text="友盟 分享 QQ空间"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        />
+</LinearLayout>

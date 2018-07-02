@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_modifypopupwindow_layout"
+    android:paddingBottom="10dp"
+    android:background="#88000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="11dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/activity_modifypopupwindow_photograph"
+            android:gravity="center"
+            android:text="@string/photograph"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/photo_grapht_shape"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e4e4e4"/>
+        <TextView
+            android:id="@+id/activity_modifypopupwindow_albumstyle"
+            android:gravity="center"
+            android:text="@string/album"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/album_shape"/>
+        <TextView
+            android:id="@+id/activity_modifypopupwindow_cancelstyle"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/cancel_shape"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

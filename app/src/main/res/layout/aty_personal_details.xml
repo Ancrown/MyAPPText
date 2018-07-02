@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_above="@+id/linearLayout">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingTop="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="44dp"
+            android:paddingRight="32dp">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="14dp">
+
+                <TextView
+                    android:id="@+id/personal_details_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="小李"
+                    android:textColor="#4d7ecb"
+                    android:textSize="12sp" />
+
+                <com.example.administrator.myapptextttttttt.views.StarBar
+                    android:id="@+id/personal_details_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/personal_details_name"
+                    ratingbar:starCount="5"
+                    ratingbar:starDistance="1dp"
+                    ratingbar:starEmpty="@drawable/icon_star_class_not_selected"
+                    ratingbar:starFill="@drawable/icon_star_class_already_selected"
+                    ratingbar:starSize="8dp" />
+
+                <TextView
+                    android:id="@+id/personal_details_follow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/semicircle_blue"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp"
+                    android:text="+关注"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/personal_details_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="9dp"
+                android:text="和平区XXXXXXXX"
+                android:textColor="#727272"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/personal_details_love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/love"
+                android:drawablePadding="9dp"
+                android:text="爱心币：10个"
+                android:textColor="#cc5d63"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/personal_details_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/note"
+                    android:drawablePadding="9dp"
+                    android:text="技能便签"
+                    android:textColor="#4d7ecb"
+                    android:textSize="10sp" />
+
+                <com.example.administrator.myapptextttttttt.views.FlowLayout
+                    android:id="@+id/personal_details_notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="16dp">
+
+                </com.example.administrator.myapptextttttttt.views.FlowLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:paddingLeft="44dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:id="@+id/personal_details_impression"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/people"
+                android:drawablePadding="9dp"
+                android:text="印象标签"
+                android:textColor="#4d7ecb"
+                android:textSize="10sp" />
+
+            <com.example.administrator.myapptextttttttt.views.FlowLayout
+                android:id="@+id/personal_details_impressions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="13dp">
+
+            </com.example.administrator.myapptextttttttt.views.FlowLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="44dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:id="@+id/personal_details_activities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/activities"
+                android:drawablePadding="9dp"
+                android:text="活动次数"
+                android:textColor="#363636"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/personal_details_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="151dp"
+                android:text="帮助次数"
+                android:textColor="#363636"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/more" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:paddingLeft="44dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="9dp"
+                android:text="帮助次数"
+                android:textColor="#363636"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/gray_border"
+                android:padding="6dp">
+
+                <EditText
+                    android:id="@+id/personal_details_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/personal_details_expression"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="写下你的问题"
+                    android:maxLines="3"
+                    android:textColor="#363636"
+                    android:textColorHint="#8e8e8e"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/personal_details_expression"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/expression" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/personal_details_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:background="#4d7ecb"
+                android:paddingBottom="4dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingTop="4dp"
+                android:text="发送"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
